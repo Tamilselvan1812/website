@@ -38,5 +38,34 @@
             <a href="#" class="btn">Contact me</a>
         </div>
     </section>
+    <h4>Follow Us On Social Media</h4>
+
+    <button onclick="openSocialMedia('facebook')">Facebook</button>
+    <button onclick="openSocialMedia('twitter')">Twitter</button>
+    <button onclick="openSocialMedia('instagram')">Instagram</button>
+    <button onclick="openSocialMedia('linkedin')">LinkedIn</button>
+
+    <script>
+        function openSocialMedia(platform) {
+            let url;
+            switch(platform) {
+                case 'facebook':
+                    url = 'https://www.facebook.com/yourprofile';
+                    break;
+                case 'twitter':
+                    url = 'https://www.twitter.com/yourprofile';
+                    break;
+                case 'instagram':
+                    url = 'https://www.instagram.com/yourprofile';
+                    break;
+                case 'linkedin':
+                    url = 'https://www.linkedin.com/in/yourprofile';
+                    break;
+                default:
+                    url = '#';
+            }
+            window.open(url, '_blank');
+        }
+    </script>
 </body>
 </html>
