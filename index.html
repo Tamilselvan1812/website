@@ -34,33 +34,35 @@
                 <a href="#"><i class="fa-brands fa-facebook"></i></a>
                 <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
                 <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <script>
+                    function openSocialMedia(platform) {
+                        let url;
+                        switch(platform) {
+                            case 'facebook':
+                                url = 'https://www.facebook.com/cultofpersonality4418';
+                                break;
+                            case 'twitter':
+                                url = 'https://www.twitter.com/yourprofile';
+                                break;
+                            case 'instagram':
+                                url = 'https://www.instagram.com/yourprofile';
+                                break;
+                            case 'linkedin':
+                                url = 'https://www.linkedin.com/in/yourprofile';
+                                break;
+                            default:
+                                url = '#';
+                        }
+                        window.open(url, '_blank');
+                    }
+                </script>
+
             </div>
             <a href="#" class="btn">Contact me</a>
         </div>
     </section>
    
 
-    <script>
-        function openSocialMedia(platform) {
-            let url;
-            switch(platform) {
-                case 'facebook':
-                    url = 'https://www.facebook.com/cultofpersonality4418';
-                    break;
-                case 'twitter':
-                    url = 'https://www.twitter.com/yourprofile';
-                    break;
-                case 'instagram':
-                    url = 'https://www.instagram.com/yourprofile';
-                    break;
-                case 'linkedin':
-                    url = 'https://www.linkedin.com/in/yourprofile';
-                    break;
-                default:
-                    url = '#';
-            }
-            window.open(url, '_blank');
-        }
-    </script>
+  
 </body>
 </html>
