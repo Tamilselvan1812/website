@@ -265,3 +265,23 @@ span{
         margin-top: 4rem;
     }
 }
+.social-icons {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    background-color: #007BFF; /* Button color */
+    border-radius: 50px; /* Rounded edges */
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s, box-shadow 0.3s; /* Smooth hover effects */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.social-icons:hover {
+    background-color: #0056b3; /* Darker on hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Shadow changes on hover */
+}
